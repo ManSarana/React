@@ -5,7 +5,7 @@ import TattooItem from "./components/TattooItem";
 import tattoos from './data/tattoos'
 
 function App() {
-  const [selectedTattoos, setSelectedTattoos] = useState(null)
+  // const [selectedTattoos, setSelectedTattoos] = useState(null)
   const tattooElement = tattoos.map((tattoo, index) => {
     return <TattooItem key={index} tattoo={tattoo}/>;
   })
